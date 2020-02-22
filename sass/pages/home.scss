@@ -1,0 +1,149 @@
+.description{
+  /*background-color: $light-cream;*/
+  padding: $body-padding;
+  margin-top: $section-margin-top;
+
+  &__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &--title{
+      @include header-title;
+    }
+
+    &--text{
+      width: 40%;
+      text-align: center;
+    }
+  }
+
+  &__body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 7.5rem;
+
+
+    &--col-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    &--col-2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    &--col-3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+  }
+}
+
+
+.details{
+ /* background-color: $light-grey;*/
+  padding: $body-padding;
+  margin-top: $section-margin-top;
+
+  &__container{
+    display: flex;
+    width: 100%;
+
+    &--info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40%;
+      padding: 3.5rem;
+
+      &__title{
+        @include header-title;
+      }
+
+      &__text{
+
+      }
+
+    }
+
+    &--app{
+      width: 60%;
+      padding:0 3.5rem;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(3, 22rem);
+      grid-template-rows: repeat(20, 2.8rem);
+      grid-gap: .6rem;
+
+
+      &__slack{
+        grid-row: 2/11;
+      }
+
+      &__g-suite{
+        grid-row: 1/10;
+        grid-column: 2/3;
+      }
+
+      &__trello{
+        grid-row: 2/11;
+      }
+
+      &__asana{
+        grid-row: 11/20;
+      }
+
+      &__sales-force{
+        grid-column: 2/3;
+        grid-row: 10/19;
+      }
+
+      &__typeform{
+        grid-row: 11/20;
+      }
+
+    }
+  }
+}
+
+
+.info{
+  padding: $body-padding;
+  margin: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &--title{
+      @include header-title;
+    }
+
+    &--text{
+      width: 40%;
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+  }
+}

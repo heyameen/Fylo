@@ -1,0 +1,15 @@
+@import "_base/_base";
+@import "_base/animations";
+@import "_base/typography";
+
+@import "abstracts/variables";
+@import "abstracts/functions";
+
+@import "components/buttons";
+@import "components/cards";
+@import "components/inputs";
+
+@import "layouts/header";
+@import "layouts/footer";
+
+@import "pages/home";

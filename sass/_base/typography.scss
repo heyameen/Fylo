@@ -1,0 +1,41 @@
+.text-header{
+  font-family: "Raleway";
+
+  &__large{
+    font-weight: 700;
+    font-family: "Raleway";
+    font-size: 4.3rem;
+  }
+
+  &__medium{
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-family: "Raleway";
+  }
+
+  &__small{
+    font-weight: 400;
+    font-size: 2.3rem;
+    font-family: "Raleway";
+    margin-top: 2rem;
+    width: 60%;
+  }
+}
+
+.body__text{
+  font-size: 1.5rem;
+  font-weight:400;
+  font-family: "Raleway";
+
+  &--medium{
+    font-size: 2.5rem;
+    font-weight:600;
+    font-family: "Raleway";
+  }
+
+  &--bold{
+    font-size: 3.5rem;
+    font-weight:700;
+    font-family: "Raleway";
+  }
+}

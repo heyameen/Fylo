@@ -1,0 +1,41 @@
+.card{
+  height: 30rem;
+  /*background-color: $light-grey;*/
+  width: 22rem;
+  border:1px solid rgba(128, 128, 128, 0.3);
+  box-shadow: $shadow-soft;
+
+
+  &__header{
+    padding: 1.5rem;
+    height: 30%;
+    border-bottom:1px solid rgba(128, 128, 128, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__img{
+      width: 70%;
+      height: 5rem;
+      display: flex;
+      object-fit: contain;
+      justify-content: center;
+
+    }
+
+  }
+
+  &__body{
+    padding: 2.5rem;
+    text-align: center;
+
+    &--header{
+
+    }
+
+    &--text{
+      margin-top: 1.5rem;
+    }
+
+  }
+}

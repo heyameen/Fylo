@@ -1,0 +1,22 @@
+.btn{
+  color: white;
+  background-color: $light-green;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+
+
+  &--large{
+    width: 25rem;
+    height: 5.5rem;
+    font-size: 2rem;
+    box-shadow: $shadow-light;
+  }
+
+  &--small{
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    box-shadow: $shadow-light;
+  }
+}
